@@ -1,0 +1,41 @@
+.wrapper{
+	margin: 0 20%;
+	border: 2px solid green;
+}
+
+#notification-app-component-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+#send-message-container{
+	position: relative;
+	margin: 20%;
+	left: 10%;
+}
+#allMessagesContainer{
+	position: relative;
+	width: 50%;
+}
+#allMessagesContainer ul{
+	border: 1px solid gray;
+}
+
+#badger{
+	position: absolute;
+	right: 0;
+}
+
+ul.separator {
+  list-style: none;
+  padding: 1%;
+}
+
+ul.separator li {
+  padding: .5em 0;
+  border-bottom: 1px solid #CCC;
+}
+
+ul.separator li:last-child {
+  border-bottom: 0;
+}
